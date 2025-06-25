@@ -43,6 +43,8 @@ function UploadMarks() {
     ]);
   };
 
+
+  
   const removeSubject = (index) => {
     const updated = subjects.filter((_, i) => i !== index);
     setSubjects(updated);
