@@ -21,7 +21,7 @@ function Home() {
         <img
           src={HeroImage}
           alt="Hero"
-          className="w-40 h-auto object-contain ml-4"
+          className="w-41 h-auto object-contain ml-4"
         />
       </div>
 
@@ -32,7 +32,7 @@ function Home() {
     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
       Welcome to EduPortal
     </h2>
-    <p className="text-gray-700 text-base">
+    <p className="text-gray-699 text-base">
       Access your grades, performance insights, and academic records effortlessly.
     </p>
 
@@ -82,5 +82,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
