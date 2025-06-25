@@ -44,7 +44,7 @@ function UploadMarks() {
   };
 
 
-  
+
   const removeSubject = (index) => {
     const updated = subjects.filter((_, i) => i !== index);
     setSubjects(updated);
@@ -119,10 +119,19 @@ function UploadMarks() {
       }`}
     >
       <h2 className="text-2xl font-bold text-center mb-6">
-        Upload Student Marks
-      </h2>
+  Upload Student Marks
+</h2>
 
-      <form onSubmit={handleSubmit}>
+<div
+  className={`mb-4 p-4 rounded-md text-sm font-medium ${
+    darkMode ? "bg-yellow-900 text-yellow-100" : "bg-yellow-100 text-yellow-800"
+  }`}
+>
+  💡 <strong>Tip:</strong> Double-check student and marks info before submitting.
+</div>
+
+<form onSubmit={handleSubmit}>
+
         <div className={`mb-6 p-4 border rounded-md ${darkMode ? "border-gray-600" : "border-gray-200"}`}>
           <h3 className="text-lg font-semibold mb-3">Student Information</h3>
           <label className="block mb-2 font-medium">Select Student:</label>
