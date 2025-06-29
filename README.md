@@ -20,8 +20,8 @@ EduPortal is a student result portal where students can log in to view their aca
 
 ## 🐛 Known Issues
 
-🟠 Marks overwrite instead of appending
-🟠 Input validations can be improved
+- Marks overwrite instead of appending
+- Input validations can be improved
 
 ---
-Made with ❤️ by Roohan Anoop
+Made with ❤️ by Roohan Anoop at Skillmate AI
