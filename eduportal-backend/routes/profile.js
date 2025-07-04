@@ -13,7 +13,7 @@ router.get("/all", async (req, res) => {
   }
 });
 
-// ✅ GET: Fetch profile summary for result page (Name, Reg No, Degree, Branch)
+// ✅ GET: Fetch profile summary for result page or dashboard
 router.get("/:userId", async (req, res) => {
   const { userId } = req.params;
   try {
@@ -23,12 +23,16 @@ router.get("/:userId", async (req, res) => {
       return res.status(404).json({ error: "Profile not found" });
     }
 
-    // Customize response to only return required fields
+    // ✅ Return full profile data expected by the frontend
     res.status(200).json({
       fullName: profile.fullName || "N/A",
       registrationNumber: profile.registrationNumber || "N/A",
-      degree: "",
-      branch: "",
+      parentsName: profile.parentsName || "",
+      dob: profile.dob || "",
+      yearOfJoining: profile.yearOfJoining || "",
+      batch: profile.batch || "",
+      degree: "", // reserved for future fields
+      branch: ""
     });
   } catch (err) {
     console.error("❌ Error getting profile:", err.message);

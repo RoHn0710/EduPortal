@@ -66,6 +66,25 @@ router.post("/upload", async (req, res) => {
     res.status(500).json({ error: "❌ Failed to upload marks" });
   }
 });
+// ✅ NEW: Get chart summary of uploaded vs pending marks
+router.get("/chart/summary", async (req, res) => {
+  try {
+    const totalProfiles = await StudentProfile.countDocuments();
+    const uploadedMarks = await Marks.countDocuments();
+
+    const pending = totalProfiles - uploadedMarks;
+
+    res.status(200).json({
+      totalStudents: totalProfiles,
+      uploaded: uploadedMarks,
+      pending: pending < 0 ? 0 : pending,
+    });
+  } catch (err) {
+    console.error("❌ Error fetching chart summary:", err.message);
+    res.status(500).json({ error: "Failed to get chart data" });
+  }
+});
+
 
 
 module.exports = router;

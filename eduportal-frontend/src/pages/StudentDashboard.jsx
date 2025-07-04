@@ -16,6 +16,23 @@ function StudentDashboard() {
     batch: "",
   });
 
+  const [quote, setQuote] = useState("");
+  const [author, setAuthor] = useState("");
+  const [quoteError, setQuoteError] = useState("");
+
+  const fetchQuote = async () => {
+    try {
+      const res = await axios.get("http://localhost:5000/api/quotes/motivational");
+      const data = res.data?.[0];
+      setQuote(data.q);
+      setAuthor(data.a);
+      setQuoteError("");
+    } catch (err) {
+      console.error("Quote fetch error:", err);
+      setQuoteError("⚠ Could not fetch motivational quote.");
+    }
+  };
+
   useEffect(() => {
     const storedStudent = JSON.parse(localStorage.getItem("student"));
     if (!storedStudent || !storedStudent._id) {
@@ -24,6 +41,7 @@ function StudentDashboard() {
     }
 
     setStudent(storedStudent);
+    fetchQuote();
 
     const fetchProfile = async () => {
       try {
@@ -95,7 +113,7 @@ function StudentDashboard() {
     return <p className="text-center text-red-600 mt-10">{error}</p>;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-6">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-xl">
         <div className="flex justify-between items-center mb-4">
           <h1 className="text-2xl font-bold text-blue-700">
@@ -163,6 +181,26 @@ function StudentDashboard() {
             </button>
           )}
         </div>
+      </div>
+
+      {/* Motivational Quote Section */}
+      <div className="mt-6 text-center text-gray-700 max-w-xl">
+        {quoteError ? (
+          <p className="text-red-600 font-medium">{quoteError}</p>
+        ) : (
+          <>
+            <p className="italic text-lg">{quote ? `"${quote}"` : "Loading motivational quote..."}</p>
+            {author && (
+              <p className="mt-1 text-sm text-gray-600 font-medium">– {author}</p>
+            )}
+          </>
+        )}
+        <button
+          onClick={fetchQuote}
+          className="mt-2 text-blue-600 hover:underline text-sm"
+        >
+          🔄 Refresh Quote
+        </button>
       </div>
     </div>
   );
