@@ -1,68 +1,23 @@
 # 🎓 EduPortal
 
-EduPortal is a student result portal where students can log in to view their academic profiles and results, while admins can upload and manage student marks. Built using **React**, **Tailwind CSS**, **Node.js**, **Express**, and **MongoDB**.
-
----
+EduPortal is a student result portal where students can log in to view their academic profiles and results, while admins can upload and manage student marks. Built using React, Tailwind CSS, Node.js, Express, and MongoDB.
 
 ## ✨ Features
 
-- 👨‍🎓 Student registration & login  
-- 🧑‍💼 Admin login and dashboard  
-- 📈 Result upload & management  
-- 🎯 Profile update feature  
-- 💬 Feedback form with contact saving  
-- 📊 Data visualization for admin  
-- 🧠 Motivational quote API integration  
-
----
+- 👨‍🎓 Student registration & login
+- 🧑‍💼 Admin login and dashboard
+- 📈 Result upload & management
+- 🎯 Profile update feature
+- 💬 Feedback form with contact saving
+- 📊 Data visualization for admin
+- 🧠 Motivational quote API integration
 
 ## 📦 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS, React Router  
-- **Backend:** Node.js, Express.js, MongoDB, Mongoose  
-- **APIs:** ZenQuotes API for motivational quotes  
+- Frontend: React.js, Tailwind CSS, React Router
+- Backend: Node.js, Express.js, MongoDB, Mongoose
+- APIs: ZenQuotes API for motivational quotes
 
----
-
-## 🚀 Hosting the Project
-
-<details>
-<summary><strong>Click to expand full setup guide</strong></summary>
-
-<br>
-
-``bash
-# 1. Clone the Repository
-git clone https://github.com/RoHn0710/EduPortal.git
-cd EduPortal
-
-# 📁 File Structure
-# EduPortal/
-# ├── eduportal-backend/
-# └── eduportal-frontend/
-
-# 2. Install Dependencies
-
-## Backend (MongoDB server should be running)
-cd eduportal-backend
-npm install
-
-## Frontend
-cd ../eduportal-frontend
-npm install
-
-# 3. Start Servers
-
-## Start Backend Server
-cd ../eduportal-backend
-node server.js
-
-## Start Frontend Server
-cd ../eduportal-frontend
-npm run dev
-
-# 🌐 Open in Browser
-# http://localhost:5173/
 
 ---
 
