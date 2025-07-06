@@ -24,36 +24,39 @@ EduPortal is a student result portal where students can log in to view their aca
 
 Follow these steps to run EduPortal on your local machine:
 
-### 1. Clone the Repository
- Bash Code:
- git clone https://github.com/RoHn0710/EduPortal.git
- cd EduPortal
- 
- ## File Structure
- EDUPORTAL/
- ├──eduportal-backend/
- ├──eduportal-frontend/
+# 1. Clone the Repository
+git clone https://github.com/RoHn0710/EduPortal.git
+cd EduPortal
 
-### 2. Install Dependencies
-## for backend (MongoDB Server Running):
- cd eduportal-backend
- npm install
+# 📁 File Structure
+# EduPortal/
+# ├── eduportal-backend/
+# └── eduportal-frontend/
 
- ## for frontend:
- cd ../eduportal-frontend
- npm install
+# 2. Install Dependencies
 
-### 3. Start Servers
+## Backend (MongoDB server should be running)
+cd eduportal-backend
+npm install
 
- ## Backend Server
- cd eduportal-backend
- node server.js
- 
- ## Frontend Server
- cd eduportal-frontend
- npm run dev
+## Frontend
+cd ../eduportal-frontend
+npm install
 
-then visit you local Host: http://localhost:5173/ in your browser to view the application.
+# 3. Start Servers
+
+## Start Backend Server
+cd ../eduportal-backend
+node server.js
+
+## Start Frontend Server
+cd ../eduportal-frontend
+npm run dev
+
+# 🚀 Visit in browser
+# http://localhost:5173/
+
+
 ---
 
 ## 🧭 Project Walkthrough
