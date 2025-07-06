@@ -58,27 +58,21 @@ Users can refresh the quote with one click.
 
 ---
 ## Screenshots
+
 ### 🏠 Home Page
 ![Home Page](./screenshot/Home.png)
-
 ### 🔐 Login Page
 ![Login Page](./screenshot/Login.png)
-
 ### 📝 Registeration Page
 ![Registeration Page](./screenshot/Register.png)
-
 ### 👨🏻‍🎓 Student Dashboard Page
 ![Student Dahboard Page](./screenshot/StudentDash.png)
-
 ### 📊 Result Page
 ![Result Page](./screenshot/Result.png)
-
 ### 🛠️ Admin Dashboard Page
 ![Admin Dashboard Page](./screenshot/AdminDash.png)
-
 ### 👩🏻‍💻 Marks Uploading Page
 ![Upload Marks Page](./screenshot/UploadMarks.png)
-
 ### 📧 Contact Us Page
 ![Contact Us Page](./screenshot/Contactus.png)
 
