@@ -1,29 +1,37 @@
 # 🎓 EduPortal
 
-EduPortal is a student result portal where students can log in to view their academic profiles and results, while admins can upload and manage student marks. Built using React, Tailwind CSS, Node.js, Express, and MongoDB.
+EduPortal is a student result portal where students can log in to view their academic profiles and results, while admins can upload and manage student marks. Built using **React**, **Tailwind CSS**, **Node.js**, **Express**, and **MongoDB**.
+
+---
 
 ## ✨ Features
 
-- 👨‍🎓 Student registration & login
-- 🧑‍💼 Admin login and dashboard
-- 📈 Result upload & management
-- 🎯 Profile update feature
-- 💬 Feedback form with contact saving
-- 📊 Data visualization for admin
-- 🧠 Motivational quote API integration
+- 👨‍🎓 Student registration & login  
+- 🧑‍💼 Admin login and dashboard  
+- 📈 Result upload & management  
+- 🎯 Profile update feature  
+- 💬 Feedback form with contact saving  
+- 📊 Data visualization for admin  
+- 🧠 Motivational quote API integration  
+
+---
 
 ## 📦 Tech Stack
 
-- Frontend: React.js, Tailwind CSS, React Router
-- Backend: Node.js, Express.js, MongoDB, Mongoose
-- APIs: ZenQuotes API for motivational quotes
-
+- **Frontend:** React.js, Tailwind CSS, React Router  
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose  
+- **APIs:** ZenQuotes API for motivational quotes  
 
 ---
+
 ## 🚀 Hosting the Project
 
-Follow these steps to run EduPortal on your local machine:
+<details>
+<summary><strong>Click to expand full setup guide</strong></summary>
 
+<br>
+
+``bash
 # 1. Clone the Repository
 git clone https://github.com/RoHn0710/EduPortal.git
 cd EduPortal
@@ -53,9 +61,8 @@ node server.js
 cd ../eduportal-frontend
 npm run dev
 
-# 🚀 Visit in browser
+# 🌐 Open in Browser
 # http://localhost:5173/
-
 
 ---
 
