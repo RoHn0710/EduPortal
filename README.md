@@ -65,22 +65,22 @@ Users can refresh the quote with one click.
 ![Login Page](./screenshot/Login.png)
 
 ### 📝 Registeration Page
-![Login Page](./screenshot/Register.png)
+![Registeration Page](./screenshot/Register.png)
 
 ### 👨🏻‍🎓 Student Dashboard Page
-![Login Page](./screenshot/StudentDash.png)
+![Student Dahboard Page](./screenshot/StudentDash.png)
 
 ### 📊 Result Page
-![Login Page](./screenshot/Result.png)
+![Result Page](./screenshot/Result.png)
 
 ### 🛠️ Admin Dashboard Page
-![Login Page](./screenshot/AdminDash.png)
+![Admin Dashboard Page](./screenshot/AdminDash.png)
 
 ### 👩🏻‍💻 Marks Uploading Page
-![Login Page](./screenshot/UploadMarks.png)
+![Upload Marks Page](./screenshot/UploadMarks.png)
 
 ### 📧 Contact Us Page
-![Login Page](./screenshot/Contact.png)
+![Contact Us Page](./screenshot/Contactus.png)
 
 ---
 Made with ❤️ by Roohan Anoop at Skillmate AI
