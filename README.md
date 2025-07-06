@@ -64,21 +64,23 @@ Users can refresh the quote with one click.
 ### 🔐 Login Page
 ![Login Page](./screenshot/Login.png)
 
-### 🔐 Registeration Page
+### 📝 Registeration Page
 ![Login Page](./screenshot/Register.png)
 
-### 🔐 Student Dashboard Page
+### 👨🏻‍🎓 Student Dashboard Page
 ![Login Page](./screenshot/StudentDash.png)
 
-### 🔐 Result Page
+### 📊 Result Page
 ![Login Page](./screenshot/Result.png)
 
-### 🔐 Admin Dashboard Page
+### 🛠️ Admin Dashboard Page
 ![Login Page](./screenshot/AdminDash.png)
 
-### 🔐 Marks Uploading Page
+### 👩🏻‍💻 Marks Uploading Page
 ![Login Page](./screenshot/UploadMarks.png)
 
-### 🔐 Contact Us Page
+### 📧 Contact Us Page
 ![Login Page](./screenshot/Contact.png)
+
+---
 Made with ❤️ by Roohan Anoop at Skillmate AI
