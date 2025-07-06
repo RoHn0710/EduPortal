@@ -20,6 +20,7 @@ EduPortal is a student result portal where students can log in to view their aca
 
 ---
 ## Hosting the Project
+
 1. Clone the Repository
 - git clone https://github.com/RoHn0710/EduPortal.git
 - cd EduPortal
