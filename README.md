@@ -18,6 +18,42 @@ EduPortal is a student result portal where students can log in to view their aca
 - Backend: Node.js, Express.js, MongoDB, Mongoose
 - APIs: ZenQuotes API for motivational quotes
 
+
+---
+## 🚀 Hosting the Project
+
+Follow these steps to run EduPortal on your local machine:
+
+### 1. Clone the Repository
+ Bash Code:
+ git clone https://github.com/RoHn0710/EduPortal.git
+ cd EduPortal
+ 
+ ## File Structure
+ EDUPORTAL/
+ ├──eduportal-backend/
+ ├──eduportal-frontend/
+
+### 2. Install Dependencies
+## for backend (MongoDB Server Running):
+ cd eduportal-backend
+ npm install
+
+ ## for frontend:
+ cd ../eduportal-frontend
+ npm install
+
+### 3. Start Servers
+
+ ## Backend Server
+ cd eduportal-backend
+ node server.js
+ 
+ ## Frontend Server
+ cd eduportal-frontend
+ npm run dev
+
+then visit you local Host: http://localhost:5173/ in your browser to view the application.
 ---
 
 ## 🧭 Project Walkthrough
