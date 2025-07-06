@@ -25,31 +25,31 @@ EduPortal is a student result portal where students can log in to view their aca
 - cd EduPortal
 
 - 📁 File Structure
-- EduPortal/
-- ├── eduportal-backend/
-- └── eduportal-frontend/
+  EduPortal/
+  ├── eduportal-backend/
+  └── eduportal-frontend/
 
 2. Install Dependencies
 
- - Backend (MongoDB server should be running)
+  Backend (MongoDB server should be running)
   - cd eduportal-backend
   - npm install
 
- - Frontend
+  Frontend
   - cd ../eduportal-frontend
   - npm install
 
 3. Start Servers
 
-- Start Backend Server
+ Start Backend Server
  - cd ../eduportal-backend
  - node server.js
 
-- Start Frontend Server
+ Start Frontend Server
  - cd ../eduportal-frontend
  - npm run dev
 
-- 🚀 Visit in browser
+ 🚀 Visit in browser
   - http://localhost:5173/
 
 ---
