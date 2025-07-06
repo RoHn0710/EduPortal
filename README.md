@@ -24,10 +24,11 @@ EduPortal is a student result portal where students can log in to view their aca
 - git clone https://github.com/RoHn0710/EduPortal.git
 - cd EduPortal
 
-- 📁 File Structure
-  EduPortal/
-  ├── eduportal-backend/
-  └── eduportal-frontend/
+ 📁 File Structure
+
+- EduPortal/
+- ├── eduportal-backend/
+- └── eduportal-frontend/
 
 2. Install Dependencies
 
