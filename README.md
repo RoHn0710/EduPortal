@@ -21,7 +21,7 @@ EduPortal is a student result portal where students can log in to view their aca
 ---
 ## Hosting the Project
 
-1. Clone the Repository
+# 1. Clone the Repository
 - git clone https://github.com/RoHn0710/EduPortal.git
 - cd EduPortal
 
@@ -31,7 +31,7 @@ EduPortal is a student result portal where students can log in to view their aca
 - ├── eduportal-backend/
 - └── eduportal-frontend/
 
-2. Install Dependencies
+# 2. Install Dependencies
 
   Backend (MongoDB server should be running)
   - cd eduportal-backend
@@ -41,7 +41,7 @@ EduPortal is a student result portal where students can log in to view their aca
   - cd ../eduportal-frontend
   - npm install
 
-3. Start Servers
+# 3. Start Servers
 
  Start Backend Server
  - cd ../eduportal-backend
